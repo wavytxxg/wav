@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,500,700');
+.main {
+	margin-top: 5%;
+}
+.main_logo {
+	height: 55px;
+	width: 149px;
+	border: 3px solid #706b73;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+}
+.main_logo p {
+	font-family: Roboto;
+	font-weight: 500;
+	font-size: 33px;
+	color: #494949;
+	line-height: 49px;
+	text-align: center;
+}
+.main_logo p span {
+	color: #fa9179;
+}
+.main_nav_bar{
+	width: 55px;
+	height: 55px;
+	position: relative;
+	float: right;
+}
+.burger {
+	display: block;
+	height: 4px;
+	width: 34px;
+	background-color: #706b73;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	top: 50%;
+	right: 0;
+	position: absolute;
+	--webkit-transform: translateY(-5px);
+	-ms-transform: translateY(-5px);
+	-o-transform: translateY(-5px);
+	transform: translateY(-5px);
+}
+.burger:before {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	content: '';
+	width: 34px;
+	height: 4px;
+	background-color: #706b73;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	--webkit-transform: translateY(-8px);
+	-ms-transform: translateY(-8px);
+	-o-transform: translateY(-8px);
+	transform: translateY(-8px);
+}
+.burger:after {
+	position: absolute;
+	right: 0;
+	top: 50%;
+	content: '';
+	width: 34px;
+	height: 4px;
+	background-color: #706b73;
+	-webkit-border-radius: 2px;
+	-moz-border-radius: 2px;
+	-ms-border-radius: 2px;
+	-o-border-radius: 2px;
+	border-radius: 2px;
+	--webkit-transform: translateY(5px);
+	-ms-transform: translateY(5px);
+	-o-transform: translateY(5px);
+	transform: translateY(5px);
+}
